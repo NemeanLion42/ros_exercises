@@ -204,3 +204,10 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+###########
+## Files ##
+###########
+
+catkin_install_python(PROGRAMS src/simple_publisher.py src/simple_subscriber.py src/fake_scan_publisher.py src/open_space_publisher.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
