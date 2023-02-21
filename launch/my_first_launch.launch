@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="ros_exercises" name="pub" type="simple_publisher.py"/>
+  <node pkg="ros_exercises" name="sub" type="simple_subscriber.py"/>
+  <node pkg="ros_exercises" name="fake" type="fake_scan_publisher.py"/>
+  <node pkg="ros_exercises" name="open" type="open_space_publisher.py"/>
+</launch>
